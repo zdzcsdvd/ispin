@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".example.mymvi.MainActivity2">
+
+    <TextView
+        android:id="@+id/t1"
+        android:gravity="center"
+        android:textColor="#4E514E"
+        android:layout_marginLeft="270dp"
+        android:layout_width="100dp"
+        android:layout_height="40dp"></TextView>
+
+    <ImageView
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="200dp"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/ffa"></ImageView>
+
+</FrameLayout>
